@@ -1,0 +1,29 @@
+<klayout-mapping>
+  <lefdef-to-gds>
+    <map lef-layer="L0" gds-layer="3" gds-datatype="0" />
+    <map lef-layer="C0" gds-layer="4" gds-datatype="0" />
+    <map lef-layer="M0" gds-layer="1" gds-datatype="0" />
+    <map lef-layer="I0" gds-layer="2" gds-datatype="0" />
+    <map lef-layer="M1" gds-layer="10" gds-datatype="0" />
+    <map lef-layer="I1" gds-layer="11" gds-datatype="0" />
+    <map lef-layer="M2" gds-layer="20" gds-datatype="0" />
+    <map lef-layer="I2" gds-layer="21" gds-datatype="0" />
+    <map lef-layer="M3" gds-layer="30" gds-datatype="0" />
+    <map lef-layer="I3" gds-layer="31" gds-datatype="0" />
+    <map lef-layer="M4" gds-layer="40" gds-datatype="0" />
+    <map lef-layer="I4" gds-layer="41" gds-datatype="0" />
+    <map lef-layer="M5" gds-layer="50" gds-datatype="0" />
+    <map lef-layer="J5" gds-layer="51" gds-datatype="0" />
+    <map lef-layer="R5" gds-layer="52" gds-datatype="0" />
+    <map lef-layer="I5" gds-layer="54" gds-datatype="0" />
+    <map lef-layer="C5J" gds-layer="55" gds-datatype="0" />
+    <map lef-layer="C5R" gds-layer="56" gds-datatype="0" />
+    <map lef-layer="I5L" gds-layer="59" gds-datatype="0" />
+    <map lef-layer="M6" gds-layer="60" gds-datatype="0" />
+    <map lef-layer="I6" gds-layer="61" gds-datatype="0" />
+    <map lef-layer="M7" gds-layer="70" gds-datatype="0" />
+    <map lef-layer="I7" gds-layer="71" gds-datatype="0" />
+    <map lef-layer="M8" gds-layer="80" gds-datatype="0" />
+    <map lef-layer="TERM" gds-layer="19" gds-datatype="0" />
+  </lefdef-to-gds>
+</klayout-mapping>

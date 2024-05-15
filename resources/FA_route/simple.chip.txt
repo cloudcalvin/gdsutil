@@ -1,0 +1,5094 @@
+Chip {
+    circuits: {
+        CellId(
+            5,
+        ): Circuit {
+            id: CellId(
+                5,
+            ),
+            name: "VIA67",
+            instances: {},
+            instances_by_name: {},
+            references: {},
+            dependencies: {},
+            dependent_circuits: {},
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [],
+            nets: {
+                NetId(
+                    11,
+                ),
+                NetId(
+                    10,
+                ),
+            },
+            nets_by_name: {
+                "__LOW__": NetId(
+                    10,
+                ),
+                "__HIGH__": NetId(
+                    11,
+                ),
+            },
+            net_low: NetId(
+                10,
+            ),
+            net_high: NetId(
+                11,
+            ),
+            shapes_map: {
+                Index(12): Shapes {
+                    shapes: {
+                        Index(16): Shape {
+                            index: Index(16),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(-2200, -2200),
+                                    upper_right: Point(2200, 2200),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(11): Shapes {
+                    shapes: {
+                        Index(17): Shape {
+                            index: Index(17),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(-2200, -2200),
+                                    upper_right: Point(2200, 2200),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(10): Shapes {
+                    shapes: {
+                        Index(15): Shape {
+                            index: Index(15),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(-2200, -2200),
+                                    upper_right: Point(2200, 2200),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            20,
+        ): Circuit {
+            id: CellId(
+                20,
+            ),
+            name: "THmitll_SPLITT",
+            instances: {},
+            instances_by_name: {},
+            references: {
+                CellInstId(
+                    3,
+                ),
+                CellInstId(
+                    2,
+                ),
+            },
+            dependencies: {},
+            dependent_circuits: {
+                CellId(
+                    22,
+                ): 2,
+            },
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [
+                PinId(
+                    35,
+                ),
+                PinId(
+                    36,
+                ),
+                PinId(
+                    37,
+                ),
+            ],
+            nets: {
+                NetId(
+                    41,
+                ),
+                NetId(
+                    40,
+                ),
+            },
+            nets_by_name: {
+                "__LOW__": NetId(
+                    40,
+                ),
+                "__HIGH__": NetId(
+                    41,
+                ),
+            },
+            net_low: NetId(
+                40,
+            ),
+            net_high: NetId(
+                41,
+            ),
+            shapes_map: {
+                Index(16): Shapes {
+                    shapes: {
+                        Index(69): Shape {
+                            index: Index(69),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(22800, 22800),
+                                    upper_right: Point(27200, 27200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    36,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(68): Shape {
+                            index: Index(68),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(22800, 12800),
+                                    upper_right: Point(27200, 17200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    35,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(70): Shape {
+                            index: Index(70),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(2800, 62800),
+                                    upper_right: Point(7200, 67200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    37,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(15): Shapes {
+                    shapes: {
+                        Index(71): Shape {
+                            index: Index(71),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(0, 0),
+                                    upper_right: Point(30000, 70000),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            7,
+        ): Circuit {
+            id: CellId(
+                7,
+            ),
+            name: "THmitll_ALWAYS0T_ASYNC",
+            instances: {},
+            instances_by_name: {},
+            references: {},
+            dependencies: {},
+            dependent_circuits: {},
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [
+                PinId(
+                    1,
+                ),
+                PinId(
+                    2,
+                ),
+            ],
+            nets: {
+                NetId(
+                    15,
+                ),
+                NetId(
+                    14,
+                ),
+            },
+            nets_by_name: {
+                "__LOW__": NetId(
+                    14,
+                ),
+                "__HIGH__": NetId(
+                    15,
+                ),
+            },
+            net_low: NetId(
+                14,
+            ),
+            net_high: NetId(
+                15,
+            ),
+            shapes_map: {
+                Index(16): Shapes {
+                    shapes: {
+                        Index(21): Shape {
+                            index: Index(21),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(2800, 2800),
+                                    upper_right: Point(7200, 7200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    1,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(22): Shape {
+                            index: Index(22),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(2800, 32800),
+                                    upper_right: Point(7200, 37200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    2,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(15): Shapes {
+                    shapes: {
+                        Index(23): Shape {
+                            index: Index(23),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(0, 0),
+                                    upper_right: Point(10000, 70000),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            22,
+        ): Circuit {
+            id: CellId(
+                22,
+            ),
+            name: "simple",
+            instances: {
+                CellInstId(
+                    5,
+                ),
+                CellInstId(
+                    4,
+                ),
+                CellInstId(
+                    7,
+                ),
+                CellInstId(
+                    6,
+                ),
+                CellInstId(
+                    1,
+                ),
+                CellInstId(
+                    0,
+                ),
+                CellInstId(
+                    3,
+                ),
+                CellInstId(
+                    2,
+                ),
+                CellInstId(
+                    9,
+                ),
+                CellInstId(
+                    8,
+                ),
+                CellInstId(
+                    11,
+                ),
+                CellInstId(
+                    10,
+                ),
+            },
+            instances_by_name: {
+                "Split_17_n17": CellInstId(
+                    2,
+                ),
+                "a_Pad": CellInstId(
+                    1,
+                ),
+                "SplitCLK_6_16": CellInstId(
+                    3,
+                ),
+                "GCLK_Pad": CellInstId(
+                    0,
+                ),
+            },
+            references: {},
+            dependencies: {
+                CellId(
+                    20,
+                ): 2,
+                CellId(
+                    6,
+                ): 2,
+                CellId(
+                    1,
+                ): 2,
+                CellId(
+                    0,
+                ): 2,
+                CellId(
+                    3,
+                ): 2,
+                CellId(
+                    2,
+                ): 2,
+            },
+            dependent_circuits: {},
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [],
+            nets: {
+                NetId(
+                    45,
+                ),
+                NetId(
+                    44,
+                ),
+                NetId(
+                    46,
+                ),
+            },
+            nets_by_name: {
+                "__HIGH__": NetId(
+                    45,
+                ),
+                "net0": NetId(
+                    46,
+                ),
+                "__LOW__": NetId(
+                    44,
+                ),
+            },
+            net_low: NetId(
+                44,
+            ),
+            net_high: NetId(
+                45,
+            ),
+            shapes_map: {
+                Index(4): Shapes {
+                    shapes: {
+                        Index(80): Shape {
+                            index: Index(80),
+                            geometry: Path(
+                                Path {
+                                    points: PointString {
+                                        points: [
+                                            Point(765000, 1395000),
+                                            Point(765000, 825000),
+                                        ],
+                                    },
+                                    width: 4400,
+                                    path_type: Extended(
+                                        2200,
+                                        2200,
+                                    ),
+                                },
+                            ),
+                            net: Some(
+                                NetId(
+                                    46,
+                                ),
+                            ),
+                            pin: None,
+                            user_data: (),
+                        },
+                        Index(78): Shape {
+                            index: Index(78),
+                            geometry: Path(
+                                Path {
+                                    points: PointString {
+                                        points: [
+                                            Point(585000, 1175000),
+                                            Point(585000, 1395000),
+                                        ],
+                                    },
+                                    width: 4400,
+                                    path_type: Extended(
+                                        2200,
+                                        2200,
+                                    ),
+                                },
+                            ),
+                            net: Some(
+                                NetId(
+                                    46,
+                                ),
+                            ),
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(15): Shapes {
+                    shapes: {
+                        Index(77): Shape {
+                            index: Index(77),
+                            geometry: SimpleRPolygon(
+                                SimpleRPolygon {
+                                    half_points: [
+                                        0,
+                                        1410000,
+                                        1430000,
+                                        0,
+                                    ],
+                                    normalized: true,
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(0): Shapes {
+                    shapes: {
+                        Index(79): Shape {
+                            index: Index(79),
+                            geometry: Path(
+                                Path {
+                                    points: PointString {
+                                        points: [
+                                            Point(585000, 1395000),
+                                            Point(765000, 1395000),
+                                        ],
+                                    },
+                                    width: 4400,
+                                    path_type: Extended(
+                                        2200,
+                                        2200,
+                                    ),
+                                },
+                            ),
+                            net: Some(
+                                NetId(
+                                    46,
+                                ),
+                            ),
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            1,
+        ): Circuit {
+            id: CellId(
+                1,
+            ),
+            name: "VIA23",
+            instances: {},
+            instances_by_name: {},
+            references: {
+                CellInstId(
+                    9,
+                ),
+                CellInstId(
+                    6,
+                ),
+            },
+            dependencies: {},
+            dependent_circuits: {
+                CellId(
+                    22,
+                ): 2,
+            },
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [],
+            nets: {
+                NetId(
+                    3,
+                ),
+                NetId(
+                    2,
+                ),
+            },
+            nets_by_name: {
+                "__LOW__": NetId(
+                    2,
+                ),
+                "__HIGH__": NetId(
+                    3,
+                ),
+            },
+            net_low: NetId(
+                2,
+            ),
+            net_high: NetId(
+                3,
+            ),
+            shapes_map: {
+                Index(4): Shapes {
+                    shapes: {
+                        Index(4): Shape {
+                            index: Index(4),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(-2200, -2200),
+                                    upper_right: Point(2200, 2200),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(3): Shapes {
+                    shapes: {
+                        Index(5): Shape {
+                            index: Index(5),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(-2200, -2200),
+                                    upper_right: Point(2200, 2200),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(2): Shapes {
+                    shapes: {
+                        Index(3): Shape {
+                            index: Index(3),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(-2200, -2200),
+                                    upper_right: Point(2200, 2200),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            16,
+        ): Circuit {
+            id: CellId(
+                16,
+            ),
+            name: "THmitll_MERGET",
+            instances: {},
+            instances_by_name: {},
+            references: {},
+            dependencies: {},
+            dependent_circuits: {},
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [
+                PinId(
+                    21,
+                ),
+                PinId(
+                    22,
+                ),
+                PinId(
+                    23,
+                ),
+            ],
+            nets: {
+                NetId(
+                    33,
+                ),
+                NetId(
+                    32,
+                ),
+            },
+            nets_by_name: {
+                "__LOW__": NetId(
+                    32,
+                ),
+                "__HIGH__": NetId(
+                    33,
+                ),
+            },
+            net_low: NetId(
+                32,
+            ),
+            net_high: NetId(
+                33,
+            ),
+            shapes_map: {
+                Index(16): Shapes {
+                    shapes: {
+                        Index(52): Shape {
+                            index: Index(52),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(12800, 2800),
+                                    upper_right: Point(17200, 7200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    23,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(51): Shape {
+                            index: Index(51),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(42800, 62800),
+                                    upper_right: Point(47200, 67200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    22,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(50): Shape {
+                            index: Index(50),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(42800, 32800),
+                                    upper_right: Point(47200, 37200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    21,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(15): Shapes {
+                    shapes: {
+                        Index(53): Shape {
+                            index: Index(53),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(0, 0),
+                                    upper_right: Point(50000, 70000),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            3,
+        ): Circuit {
+            id: CellId(
+                3,
+            ),
+            name: "VIA45",
+            instances: {},
+            instances_by_name: {},
+            references: {
+                CellInstId(
+                    4,
+                ),
+                CellInstId(
+                    11,
+                ),
+            },
+            dependencies: {},
+            dependent_circuits: {
+                CellId(
+                    22,
+                ): 2,
+            },
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [],
+            nets: {
+                NetId(
+                    7,
+                ),
+                NetId(
+                    6,
+                ),
+            },
+            nets_by_name: {
+                "__LOW__": NetId(
+                    6,
+                ),
+                "__HIGH__": NetId(
+                    7,
+                ),
+            },
+            net_low: NetId(
+                6,
+            ),
+            net_high: NetId(
+                7,
+            ),
+            shapes_map: {
+                Index(8): Shapes {
+                    shapes: {
+                        Index(10): Shape {
+                            index: Index(10),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(-2200, -2200),
+                                    upper_right: Point(2200, 2200),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(7): Shapes {
+                    shapes: {
+                        Index(11): Shape {
+                            index: Index(11),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(-2200, -2200),
+                                    upper_right: Point(2200, 2200),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(6): Shapes {
+                    shapes: {
+                        Index(9): Shape {
+                            index: Index(9),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(-2200, -2200),
+                                    upper_right: Point(2200, 2200),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            18,
+        ): Circuit {
+            id: CellId(
+                18,
+            ),
+            name: "THmitll_NOTT",
+            instances: {},
+            instances_by_name: {},
+            references: {},
+            dependencies: {},
+            dependent_circuits: {},
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [
+                PinId(
+                    28,
+                ),
+                PinId(
+                    29,
+                ),
+                PinId(
+                    30,
+                ),
+            ],
+            nets: {
+                NetId(
+                    37,
+                ),
+                NetId(
+                    36,
+                ),
+            },
+            nets_by_name: {
+                "__HIGH__": NetId(
+                    37,
+                ),
+                "__LOW__": NetId(
+                    36,
+                ),
+            },
+            net_low: NetId(
+                36,
+            ),
+            net_high: NetId(
+                37,
+            ),
+            shapes_map: {
+                Index(16): Shapes {
+                    shapes: {
+                        Index(61): Shape {
+                            index: Index(61),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(32800, 2800),
+                                    upper_right: Point(37200, 7200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    30,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(60): Shape {
+                            index: Index(60),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(32800, 62800),
+                                    upper_right: Point(37200, 67200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    29,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(59): Shape {
+                            index: Index(59),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(2800, 62800),
+                                    upper_right: Point(7200, 67200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    28,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(15): Shapes {
+                    shapes: {
+                        Index(62): Shape {
+                            index: Index(62),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(0, 0),
+                                    upper_right: Point(40000, 70000),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            13,
+        ): Circuit {
+            id: CellId(
+                13,
+            ),
+            name: "THmitll_DCSFQ-PTLTX",
+            instances: {},
+            instances_by_name: {},
+            references: {},
+            dependencies: {},
+            dependent_circuits: {},
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [
+                PinId(
+                    15,
+                ),
+            ],
+            nets: {
+                NetId(
+                    27,
+                ),
+                NetId(
+                    26,
+                ),
+            },
+            nets_by_name: {
+                "__LOW__": NetId(
+                    26,
+                ),
+                "__HIGH__": NetId(
+                    27,
+                ),
+            },
+            net_low: NetId(
+                26,
+            ),
+            net_high: NetId(
+                27,
+            ),
+            shapes_map: {
+                Index(16): Shapes {
+                    shapes: {
+                        Index(41): Shape {
+                            index: Index(41),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(2800, 2800),
+                                    upper_right: Point(7200, 7200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    15,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(15): Shapes {
+                    shapes: {
+                        Index(42): Shape {
+                            index: Index(42),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(-50, 0),
+                                    upper_right: Point(20000, 70000),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            15,
+        ): Circuit {
+            id: CellId(
+                15,
+            ),
+            name: "THmitll_JTLT",
+            instances: {},
+            instances_by_name: {},
+            references: {},
+            dependencies: {},
+            dependent_circuits: {},
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [
+                PinId(
+                    19,
+                ),
+                PinId(
+                    20,
+                ),
+            ],
+            nets: {
+                NetId(
+                    31,
+                ),
+                NetId(
+                    30,
+                ),
+            },
+            nets_by_name: {
+                "__HIGH__": NetId(
+                    31,
+                ),
+                "__LOW__": NetId(
+                    30,
+                ),
+            },
+            net_low: NetId(
+                30,
+            ),
+            net_high: NetId(
+                31,
+            ),
+            shapes_map: {
+                Index(16): Shapes {
+                    shapes: {
+                        Index(48): Shape {
+                            index: Index(48),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(12800, 32800),
+                                    upper_right: Point(17200, 37200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    20,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(47): Shape {
+                            index: Index(47),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(12800, 2800),
+                                    upper_right: Point(17200, 7200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    19,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(15): Shapes {
+                    shapes: {
+                        Index(49): Shape {
+                            index: Index(49),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(0, 0),
+                                    upper_right: Point(20000, 70000),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            9,
+        ): Circuit {
+            id: CellId(
+                9,
+            ),
+            name: "THmitll_ALWAYS0T_SYNC",
+            instances: {},
+            instances_by_name: {},
+            references: {},
+            dependencies: {},
+            dependent_circuits: {},
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [
+                PinId(
+                    4,
+                ),
+                PinId(
+                    5,
+                ),
+                PinId(
+                    6,
+                ),
+            ],
+            nets: {
+                NetId(
+                    19,
+                ),
+                NetId(
+                    18,
+                ),
+            },
+            nets_by_name: {
+                "__HIGH__": NetId(
+                    19,
+                ),
+                "__LOW__": NetId(
+                    18,
+                ),
+            },
+            net_low: NetId(
+                18,
+            ),
+            net_high: NetId(
+                19,
+            ),
+            shapes_map: {
+                Index(16): Shapes {
+                    shapes: {
+                        Index(28): Shape {
+                            index: Index(28),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(2800, 52800),
+                                    upper_right: Point(7200, 57200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    6,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(27): Shape {
+                            index: Index(27),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(2800, 32800),
+                                    upper_right: Point(7200, 37200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    5,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(26): Shape {
+                            index: Index(26),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(2800, 2800),
+                                    upper_right: Point(7200, 7200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    4,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(15): Shapes {
+                    shapes: {
+                        Index(29): Shape {
+                            index: Index(29),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(0, 0),
+                                    upper_right: Point(10000, 70000),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            11,
+        ): Circuit {
+            id: CellId(
+                11,
+            ),
+            name: "THmitll_AND2T",
+            instances: {},
+            instances_by_name: {},
+            references: {},
+            dependencies: {},
+            dependent_circuits: {},
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [
+                PinId(
+                    9,
+                ),
+                PinId(
+                    10,
+                ),
+                PinId(
+                    11,
+                ),
+                PinId(
+                    12,
+                ),
+            ],
+            nets: {
+                NetId(
+                    23,
+                ),
+                NetId(
+                    22,
+                ),
+            },
+            nets_by_name: {
+                "__HIGH__": NetId(
+                    23,
+                ),
+                "__LOW__": NetId(
+                    22,
+                ),
+            },
+            net_low: NetId(
+                22,
+            ),
+            net_high: NetId(
+                23,
+            ),
+            shapes_map: {
+                Index(16): Shapes {
+                    shapes: {
+                        Index(36): Shape {
+                            index: Index(36),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(42800, 12800),
+                                    upper_right: Point(47200, 17200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    12,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(33): Shape {
+                            index: Index(33),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(12800, 62800),
+                                    upper_right: Point(17200, 67200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    9,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(35): Shape {
+                            index: Index(35),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(42800, 22800),
+                                    upper_right: Point(47200, 27200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    11,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(34): Shape {
+                            index: Index(34),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(2800, 2800),
+                                    upper_right: Point(7200, 7200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    10,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(15): Shapes {
+                    shapes: {
+                        Index(37): Shape {
+                            index: Index(37),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(0, 0),
+                                    upper_right: Point(50000, 70000),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            21,
+        ): Circuit {
+            id: CellId(
+                21,
+            ),
+            name: "THmitll_XORT",
+            instances: {},
+            instances_by_name: {},
+            references: {},
+            dependencies: {},
+            dependent_circuits: {},
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [
+                PinId(
+                    38,
+                ),
+                PinId(
+                    39,
+                ),
+                PinId(
+                    40,
+                ),
+                PinId(
+                    41,
+                ),
+            ],
+            nets: {
+                NetId(
+                    43,
+                ),
+                NetId(
+                    42,
+                ),
+            },
+            nets_by_name: {
+                "__LOW__": NetId(
+                    42,
+                ),
+                "__HIGH__": NetId(
+                    43,
+                ),
+            },
+            net_low: NetId(
+                42,
+            ),
+            net_high: NetId(
+                43,
+            ),
+            shapes_map: {
+                Index(16): Shapes {
+                    shapes: {
+                        Index(73): Shape {
+                            index: Index(73),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(2800, 62800),
+                                    upper_right: Point(7200, 67200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    39,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(72): Shape {
+                            index: Index(72),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(2800, 2800),
+                                    upper_right: Point(7200, 7200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    38,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(75): Shape {
+                            index: Index(75),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(32800, 2800),
+                                    upper_right: Point(37200, 7200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    41,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(74): Shape {
+                            index: Index(74),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(42800, 62800),
+                                    upper_right: Point(47200, 67200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    40,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(15): Shapes {
+                    shapes: {
+                        Index(76): Shape {
+                            index: Index(76),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(0, 0),
+                                    upper_right: Point(50000, 70000),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            4,
+        ): Circuit {
+            id: CellId(
+                4,
+            ),
+            name: "VIA56",
+            instances: {},
+            instances_by_name: {},
+            references: {},
+            dependencies: {},
+            dependent_circuits: {},
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [],
+            nets: {
+                NetId(
+                    9,
+                ),
+                NetId(
+                    8,
+                ),
+            },
+            nets_by_name: {
+                "__HIGH__": NetId(
+                    9,
+                ),
+                "__LOW__": NetId(
+                    8,
+                ),
+            },
+            net_low: NetId(
+                8,
+            ),
+            net_high: NetId(
+                9,
+            ),
+            shapes_map: {
+                Index(9): Shapes {
+                    shapes: {
+                        Index(14): Shape {
+                            index: Index(14),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(-2200, -2200),
+                                    upper_right: Point(2200, 2200),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(8): Shapes {
+                    shapes: {
+                        Index(12): Shape {
+                            index: Index(12),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(-2200, -2200),
+                                    upper_right: Point(2200, 2200),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(10): Shapes {
+                    shapes: {
+                        Index(13): Shape {
+                            index: Index(13),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(-2200, -2200),
+                                    upper_right: Point(2200, 2200),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            6,
+        ): Circuit {
+            id: CellId(
+                6,
+            ),
+            name: "PAD",
+            instances: {},
+            instances_by_name: {},
+            references: {
+                CellInstId(
+                    1,
+                ),
+                CellInstId(
+                    0,
+                ),
+            },
+            dependencies: {},
+            dependent_circuits: {
+                CellId(
+                    22,
+                ): 2,
+            },
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [
+                PinId(
+                    0,
+                ),
+            ],
+            nets: {
+                NetId(
+                    13,
+                ),
+                NetId(
+                    12,
+                ),
+            },
+            nets_by_name: {
+                "__LOW__": NetId(
+                    12,
+                ),
+                "__HIGH__": NetId(
+                    13,
+                ),
+            },
+            net_low: NetId(
+                12,
+            ),
+            net_high: NetId(
+                13,
+            ),
+            shapes_map: {
+                Index(13): Shapes {
+                    shapes: {
+                        Index(18): Shape {
+                            index: Index(18),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(27000, 12500),
+                                    upper_right: Point(73000, 107500),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    0,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(15): Shapes {
+                    shapes: {
+                        Index(20): Shape {
+                            index: Index(20),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(0, 0),
+                                    upper_right: Point(100000, 120000),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(14): Shapes {
+                    shapes: {
+                        Index(19): Shape {
+                            index: Index(19),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(27000, 12500),
+                                    upper_right: Point(73000, 107500),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    0,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            17,
+        ): Circuit {
+            id: CellId(
+                17,
+            ),
+            name: "THmitll_NDROT",
+            instances: {},
+            instances_by_name: {},
+            references: {},
+            dependencies: {},
+            dependent_circuits: {},
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [
+                PinId(
+                    24,
+                ),
+                PinId(
+                    25,
+                ),
+                PinId(
+                    26,
+                ),
+                PinId(
+                    27,
+                ),
+            ],
+            nets: {
+                NetId(
+                    35,
+                ),
+                NetId(
+                    34,
+                ),
+            },
+            nets_by_name: {
+                "__LOW__": NetId(
+                    34,
+                ),
+                "__HIGH__": NetId(
+                    35,
+                ),
+            },
+            net_low: NetId(
+                34,
+            ),
+            net_high: NetId(
+                35,
+            ),
+            shapes_map: {
+                Index(16): Shapes {
+                    shapes: {
+                        Index(55): Shape {
+                            index: Index(55),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(2800, 62800),
+                                    upper_right: Point(7200, 67200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    25,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(54): Shape {
+                            index: Index(54),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(42800, 62800),
+                                    upper_right: Point(47200, 67200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    24,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(57): Shape {
+                            index: Index(57),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(32800, 2800),
+                                    upper_right: Point(37200, 7200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    27,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(56): Shape {
+                            index: Index(56),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(2800, 22800),
+                                    upper_right: Point(7200, 27200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    26,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(15): Shapes {
+                    shapes: {
+                        Index(58): Shape {
+                            index: Index(58),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(0, 0),
+                                    upper_right: Point(50000, 70000),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            0,
+        ): Circuit {
+            id: CellId(
+                0,
+            ),
+            name: "VIA12",
+            instances: {},
+            instances_by_name: {},
+            references: {
+                CellInstId(
+                    8,
+                ),
+                CellInstId(
+                    7,
+                ),
+            },
+            dependencies: {},
+            dependent_circuits: {
+                CellId(
+                    22,
+                ): 2,
+            },
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [],
+            nets: {
+                NetId(
+                    1,
+                ),
+                NetId(
+                    0,
+                ),
+            },
+            nets_by_name: {
+                "__HIGH__": NetId(
+                    1,
+                ),
+                "__LOW__": NetId(
+                    0,
+                ),
+            },
+            net_low: NetId(
+                0,
+            ),
+            net_high: NetId(
+                1,
+            ),
+            shapes_map: {
+                Index(1): Shapes {
+                    shapes: {
+                        Index(2): Shape {
+                            index: Index(2),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(-2200, -2200),
+                                    upper_right: Point(2200, 2200),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(0): Shapes {
+                    shapes: {
+                        Index(0): Shape {
+                            index: Index(0),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(-200200, -2200),
+                                    upper_right: Point(2200, 2200),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(2): Shapes {
+                    shapes: {
+                        Index(1): Shape {
+                            index: Index(1),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(-2200, -2200),
+                                    upper_right: Point(2200, 2200),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            19,
+        ): Circuit {
+            id: CellId(
+                19,
+            ),
+            name: "THmitll_OR2T",
+            instances: {},
+            instances_by_name: {},
+            references: {},
+            dependencies: {},
+            dependent_circuits: {},
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [
+                PinId(
+                    31,
+                ),
+                PinId(
+                    32,
+                ),
+                PinId(
+                    33,
+                ),
+                PinId(
+                    34,
+                ),
+            ],
+            nets: {
+                NetId(
+                    39,
+                ),
+                NetId(
+                    38,
+                ),
+            },
+            nets_by_name: {
+                "__HIGH__": NetId(
+                    39,
+                ),
+                "__LOW__": NetId(
+                    38,
+                ),
+            },
+            net_low: NetId(
+                38,
+            ),
+            net_high: NetId(
+                39,
+            ),
+            shapes_map: {
+                Index(16): Shapes {
+                    shapes: {
+                        Index(63): Shape {
+                            index: Index(63),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(2800, 2800),
+                                    upper_right: Point(7200, 7200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    31,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(65): Shape {
+                            index: Index(65),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(32800, 62800),
+                                    upper_right: Point(37200, 67200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    33,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(64): Shape {
+                            index: Index(64),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(32800, 2800),
+                                    upper_right: Point(37200, 7200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    32,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(66): Shape {
+                            index: Index(66),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(2800, 62800),
+                                    upper_right: Point(7200, 67200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    34,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(15): Shapes {
+                    shapes: {
+                        Index(67): Shape {
+                            index: Index(67),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(0, 0),
+                                    upper_right: Point(40000, 70000),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            2,
+        ): Circuit {
+            id: CellId(
+                2,
+            ),
+            name: "VIA34",
+            instances: {},
+            instances_by_name: {},
+            references: {
+                CellInstId(
+                    5,
+                ),
+                CellInstId(
+                    10,
+                ),
+            },
+            dependencies: {},
+            dependent_circuits: {
+                CellId(
+                    22,
+                ): 2,
+            },
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [],
+            nets: {
+                NetId(
+                    5,
+                ),
+                NetId(
+                    4,
+                ),
+            },
+            nets_by_name: {
+                "__HIGH__": NetId(
+                    5,
+                ),
+                "__LOW__": NetId(
+                    4,
+                ),
+            },
+            net_low: NetId(
+                4,
+            ),
+            net_high: NetId(
+                5,
+            ),
+            shapes_map: {
+                Index(5): Shapes {
+                    shapes: {
+                        Index(8): Shape {
+                            index: Index(8),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(-2200, -2200),
+                                    upper_right: Point(2200, 2200),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(4): Shapes {
+                    shapes: {
+                        Index(6): Shape {
+                            index: Index(6),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(-2200, -2200),
+                                    upper_right: Point(2200, 2200),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(6): Shapes {
+                    shapes: {
+                        Index(7): Shape {
+                            index: Index(7),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(-2200, -2200),
+                                    upper_right: Point(2200, 2200),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            12,
+        ): Circuit {
+            id: CellId(
+                12,
+            ),
+            name: "THmitll_BUFFT",
+            instances: {},
+            instances_by_name: {},
+            references: {},
+            dependencies: {},
+            dependent_circuits: {},
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [
+                PinId(
+                    13,
+                ),
+                PinId(
+                    14,
+                ),
+            ],
+            nets: {
+                NetId(
+                    25,
+                ),
+                NetId(
+                    24,
+                ),
+            },
+            nets_by_name: {
+                "__HIGH__": NetId(
+                    25,
+                ),
+                "__LOW__": NetId(
+                    24,
+                ),
+            },
+            net_low: NetId(
+                24,
+            ),
+            net_high: NetId(
+                25,
+            ),
+            shapes_map: {
+                Index(16): Shapes {
+                    shapes: {
+                        Index(39): Shape {
+                            index: Index(39),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(12800, 42800),
+                                    upper_right: Point(17200, 47200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    14,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(38): Shape {
+                            index: Index(38),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(12800, 2800),
+                                    upper_right: Point(17200, 7200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    13,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(15): Shapes {
+                    shapes: {
+                        Index(40): Shape {
+                            index: Index(40),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(0, 0),
+                                    upper_right: Point(20000, 70000),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            14,
+        ): Circuit {
+            id: CellId(
+                14,
+            ),
+            name: "THmitll_DFFT",
+            instances: {},
+            instances_by_name: {},
+            references: {},
+            dependencies: {},
+            dependent_circuits: {},
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [
+                PinId(
+                    16,
+                ),
+                PinId(
+                    17,
+                ),
+                PinId(
+                    18,
+                ),
+            ],
+            nets: {
+                NetId(
+                    29,
+                ),
+                NetId(
+                    28,
+                ),
+            },
+            nets_by_name: {
+                "__LOW__": NetId(
+                    28,
+                ),
+                "__HIGH__": NetId(
+                    29,
+                ),
+            },
+            net_low: NetId(
+                28,
+            ),
+            net_high: NetId(
+                29,
+            ),
+            shapes_map: {
+                Index(16): Shapes {
+                    shapes: {
+                        Index(45): Shape {
+                            index: Index(45),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(22800, 62800),
+                                    upper_right: Point(27200, 67200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    18,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(44): Shape {
+                            index: Index(44),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(22800, 2800),
+                                    upper_right: Point(27200, 7200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    17,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(43): Shape {
+                            index: Index(43),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(2800, 2800),
+                                    upper_right: Point(7200, 7200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    16,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(15): Shapes {
+                    shapes: {
+                        Index(46): Shape {
+                            index: Index(46),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(0, 0),
+                                    upper_right: Point(30000, 70000),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            8,
+        ): Circuit {
+            id: CellId(
+                8,
+            ),
+            name: "THmitll_ALWAYS0T_ASYNC_NOA",
+            instances: {},
+            instances_by_name: {},
+            references: {},
+            dependencies: {},
+            dependent_circuits: {},
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [
+                PinId(
+                    3,
+                ),
+            ],
+            nets: {
+                NetId(
+                    17,
+                ),
+                NetId(
+                    16,
+                ),
+            },
+            nets_by_name: {
+                "__HIGH__": NetId(
+                    17,
+                ),
+                "__LOW__": NetId(
+                    16,
+                ),
+            },
+            net_low: NetId(
+                16,
+            ),
+            net_high: NetId(
+                17,
+            ),
+            shapes_map: {
+                Index(16): Shapes {
+                    shapes: {
+                        Index(24): Shape {
+                            index: Index(24),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(2800, 2800),
+                                    upper_right: Point(7200, 7200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    3,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(15): Shapes {
+                    shapes: {
+                        Index(25): Shape {
+                            index: Index(25),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(0, 0),
+                                    upper_right: Point(10000, 70000),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+        CellId(
+            10,
+        ): Circuit {
+            id: CellId(
+                10,
+            ),
+            name: "THmitll_ALWAYS0T_SYNC_NOA",
+            instances: {},
+            instances_by_name: {},
+            references: {},
+            dependencies: {},
+            dependent_circuits: {},
+            instance_properties: {},
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [
+                PinId(
+                    7,
+                ),
+                PinId(
+                    8,
+                ),
+            ],
+            nets: {
+                NetId(
+                    21,
+                ),
+                NetId(
+                    20,
+                ),
+            },
+            nets_by_name: {
+                "__HIGH__": NetId(
+                    21,
+                ),
+                "__LOW__": NetId(
+                    20,
+                ),
+            },
+            net_low: NetId(
+                20,
+            ),
+            net_high: NetId(
+                21,
+            ),
+            shapes_map: {
+                Index(16): Shapes {
+                    shapes: {
+                        Index(31): Shape {
+                            index: Index(31),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(2800, 32800),
+                                    upper_right: Point(7200, 37200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    8,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                        Index(30): Shape {
+                            index: Index(30),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(2800, 2800),
+                                    upper_right: Point(7200, 7200),
+                                },
+                            ),
+                            net: None,
+                            pin: Some(
+                                PinId(
+                                    7,
+                                ),
+                            ),
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+                Index(15): Shapes {
+                    shapes: {
+                        Index(32): Shape {
+                            index: Index(32),
+                            geometry: Rect(
+                                Rect {
+                                    lower_left: Point(0, 0),
+                                    upper_right: Point(10000, 70000),
+                                },
+                            ),
+                            net: None,
+                            pin: None,
+                            user_data: (),
+                        },
+                    },
+                    shape_properties: {},
+                },
+            },
+        },
+    },
+    circuits_by_name: {
+        "VIA45": CellId(
+            3,
+        ),
+        "THmitll_DFFT": CellId(
+            14,
+        ),
+        "THmitll_NDROT": CellId(
+            17,
+        ),
+        "THmitll_AND2T": CellId(
+            11,
+        ),
+        "THmitll_NOTT": CellId(
+            18,
+        ),
+        "THmitll_ALWAYS0T_SYNC_NOA": CellId(
+            10,
+        ),
+        "THmitll_BUFFT": CellId(
+            12,
+        ),
+        "THmitll_OR2T": CellId(
+            19,
+        ),
+        "THmitll_XORT": CellId(
+            21,
+        ),
+        "THmitll_ALWAYS0T_ASYNC_NOA": CellId(
+            8,
+        ),
+        "THmitll_ALWAYS0T_ASYNC": CellId(
+            7,
+        ),
+        "THmitll_JTLT": CellId(
+            15,
+        ),
+        "VIA34": CellId(
+            2,
+        ),
+        "THmitll_SPLITT": CellId(
+            20,
+        ),
+        "VIA23": CellId(
+            1,
+        ),
+        "VIA67": CellId(
+            5,
+        ),
+        "THmitll_DCSFQ-PTLTX": CellId(
+            13,
+        ),
+        "simple": CellId(
+            22,
+        ),
+        "THmitll_ALWAYS0T_SYNC": CellId(
+            9,
+        ),
+        "PAD": CellId(
+            6,
+        ),
+        "THmitll_MERGET": CellId(
+            16,
+        ),
+        "VIA12": CellId(
+            0,
+        ),
+        "VIA56": CellId(
+            4,
+        ),
+    },
+    circuit_instances: {
+        CellInstId(
+            5,
+        ): CircuitInst {
+            name: None,
+            template_circuit_id: CellId(
+                2,
+            ),
+            parent_circuit_id: CellId(
+                22,
+            ),
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [],
+            transform: SimpleTransform {
+                mirror: false,
+                rotation: R0,
+                magnification: 1,
+                displacement: (585000, 1175000),
+            },
+        },
+        CellInstId(
+            4,
+        ): CircuitInst {
+            name: None,
+            template_circuit_id: CellId(
+                3,
+            ),
+            parent_circuit_id: CellId(
+                22,
+            ),
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [],
+            transform: SimpleTransform {
+                mirror: false,
+                rotation: R0,
+                magnification: 1,
+                displacement: (585000, 1175000),
+            },
+        },
+        CellInstId(
+            7,
+        ): CircuitInst {
+            name: None,
+            template_circuit_id: CellId(
+                0,
+            ),
+            parent_circuit_id: CellId(
+                22,
+            ),
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [],
+            transform: SimpleTransform {
+                mirror: false,
+                rotation: R0,
+                magnification: 1,
+                displacement: (585000, 1395000),
+            },
+        },
+        CellInstId(
+            6,
+        ): CircuitInst {
+            name: None,
+            template_circuit_id: CellId(
+                1,
+            ),
+            parent_circuit_id: CellId(
+                22,
+            ),
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [],
+            transform: SimpleTransform {
+                mirror: false,
+                rotation: R0,
+                magnification: 1,
+                displacement: (585000, 1395000),
+            },
+        },
+        CellInstId(
+            1,
+        ): CircuitInst {
+            name: Some(
+                "a_Pad",
+            ),
+            template_circuit_id: CellId(
+                6,
+            ),
+            parent_circuit_id: CellId(
+                22,
+            ),
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [
+                PinInstId(
+                    1,
+                ),
+            ],
+            transform: SimpleTransform {
+                mirror: false,
+                rotation: R0,
+                magnification: 1,
+                displacement: (540000, 1070000),
+            },
+        },
+        CellInstId(
+            0,
+        ): CircuitInst {
+            name: Some(
+                "GCLK_Pad",
+            ),
+            template_circuit_id: CellId(
+                6,
+            ),
+            parent_circuit_id: CellId(
+                22,
+            ),
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [
+                PinInstId(
+                    0,
+                ),
+            ],
+            transform: SimpleTransform {
+                mirror: false,
+                rotation: R0,
+                magnification: 1,
+                displacement: (240000, 1070000),
+            },
+        },
+        CellInstId(
+            3,
+        ): CircuitInst {
+            name: Some(
+                "SplitCLK_6_16",
+            ),
+            template_circuit_id: CellId(
+                20,
+            ),
+            parent_circuit_id: CellId(
+                22,
+            ),
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [
+                PinInstId(
+                    5,
+                ),
+                PinInstId(
+                    6,
+                ),
+                PinInstId(
+                    7,
+                ),
+            ],
+            transform: SimpleTransform {
+                mirror: true,
+                rotation: R180,
+                magnification: 1,
+                displacement: (460000, 830000),
+            },
+        },
+        CellInstId(
+            2,
+        ): CircuitInst {
+            name: Some(
+                "Split_17_n17",
+            ),
+            template_circuit_id: CellId(
+                20,
+            ),
+            parent_circuit_id: CellId(
+                22,
+            ),
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [
+                PinInstId(
+                    2,
+                ),
+                PinInstId(
+                    3,
+                ),
+                PinInstId(
+                    4,
+                ),
+            ],
+            transform: SimpleTransform {
+                mirror: false,
+                rotation: R0,
+                magnification: 1,
+                displacement: (760000, 760000),
+            },
+        },
+        CellInstId(
+            9,
+        ): CircuitInst {
+            name: None,
+            template_circuit_id: CellId(
+                1,
+            ),
+            parent_circuit_id: CellId(
+                22,
+            ),
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [],
+            transform: SimpleTransform {
+                mirror: false,
+                rotation: R0,
+                magnification: 1,
+                displacement: (765000, 1395000),
+            },
+        },
+        CellInstId(
+            8,
+        ): CircuitInst {
+            name: None,
+            template_circuit_id: CellId(
+                0,
+            ),
+            parent_circuit_id: CellId(
+                22,
+            ),
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [],
+            transform: SimpleTransform {
+                mirror: false,
+                rotation: R0,
+                magnification: 1,
+                displacement: (765000, 1395000),
+            },
+        },
+        CellInstId(
+            11,
+        ): CircuitInst {
+            name: None,
+            template_circuit_id: CellId(
+                3,
+            ),
+            parent_circuit_id: CellId(
+                22,
+            ),
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [],
+            transform: SimpleTransform {
+                mirror: false,
+                rotation: R0,
+                magnification: 1,
+                displacement: (765000, 825000),
+            },
+        },
+        CellInstId(
+            10,
+        ): CircuitInst {
+            name: None,
+            template_circuit_id: CellId(
+                2,
+            ),
+            parent_circuit_id: CellId(
+                22,
+            ),
+            properties: PropertyStore {
+                content: {},
+            },
+            user_data: (),
+            pins: [],
+            transform: SimpleTransform {
+                mirror: false,
+                rotation: R0,
+                magnification: 1,
+                displacement: (765000, 825000),
+            },
+        },
+    },
+    nets: {
+        NetId(
+            37,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                18,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            4,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                2,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            39,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                19,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            6,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                3,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            33,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                16,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            0,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                0,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            35,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                17,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            2,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                1,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            45,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                22,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            12,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                6,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            14,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                7,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            41,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                20,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            8,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                4,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            43,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                21,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            10,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                5,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            20,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                10,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            22,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                11,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            16,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                8,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            18,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                9,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            28,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                14,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            30,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                15,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            24,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                12,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            26,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                13,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            5,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                2,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            36,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                18,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            7,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                3,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            38,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                19,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            1,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                0,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            32,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                16,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            3,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                1,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            34,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                17,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            13,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                6,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            44,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                22,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            15,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                7,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            46,
+        ): Net {
+            name: Some(
+                "net0",
+            ),
+            parent_id: CellId(
+                22,
+            ),
+            pins: {},
+            pin_instances: {
+                PinInstId(
+                    1,
+                ),
+                PinInstId(
+                    4,
+                ),
+            },
+            net_shapes: {
+                Index(80),
+                Index(79),
+                Index(78),
+            },
+        },
+        NetId(
+            9,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                4,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            40,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                20,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            11,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                5,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            42,
+        ): Net {
+            name: Some(
+                "__LOW__",
+            ),
+            parent_id: CellId(
+                21,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            21,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                10,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            23,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                11,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            17,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                8,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            19,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                9,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            29,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                14,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            31,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                15,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            25,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                12,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+        NetId(
+            27,
+        ): Net {
+            name: Some(
+                "__HIGH__",
+            ),
+            parent_id: CellId(
+                13,
+            ),
+            pins: {},
+            pin_instances: {},
+            net_shapes: {},
+        },
+    },
+    pins: {
+        PinId(
+            37,
+        ): Pin {
+            name: "a",
+            direction: Input,
+            circuit: CellId(
+                20,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(70),
+            },
+        },
+        PinId(
+            20,
+        ): Pin {
+            name: "a",
+            direction: Input,
+            circuit: CellId(
+                15,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(48),
+            },
+        },
+        PinId(
+            7,
+        ): Pin {
+            name: "q",
+            direction: Output,
+            circuit: CellId(
+                10,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(30),
+            },
+        },
+        PinId(
+            33,
+        ): Pin {
+            name: "clk",
+            direction: Input,
+            circuit: CellId(
+                19,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(65),
+            },
+        },
+        PinId(
+            16,
+        ): Pin {
+            name: "a",
+            direction: Input,
+            circuit: CellId(
+                14,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(43),
+            },
+        },
+        PinId(
+            3,
+        ): Pin {
+            name: "q",
+            direction: Output,
+            circuit: CellId(
+                8,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(24),
+            },
+        },
+        PinId(
+            28,
+        ): Pin {
+            name: "a",
+            direction: Input,
+            circuit: CellId(
+                18,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(59),
+            },
+        },
+        PinId(
+            15,
+        ): Pin {
+            name: "q",
+            direction: Output,
+            circuit: CellId(
+                13,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(41),
+            },
+        },
+        PinId(
+            41,
+        ): Pin {
+            name: "q",
+            direction: Output,
+            circuit: CellId(
+                21,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(75),
+            },
+        },
+        PinId(
+            24,
+        ): Pin {
+            name: "b",
+            direction: Input,
+            circuit: CellId(
+                17,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(54),
+            },
+        },
+        PinId(
+            11,
+        ): Pin {
+            name: "q",
+            direction: Output,
+            circuit: CellId(
+                11,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(35),
+            },
+        },
+        PinId(
+            36,
+        ): Pin {
+            name: "q0",
+            direction: Output,
+            circuit: CellId(
+                20,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(69),
+            },
+        },
+        PinId(
+            23,
+        ): Pin {
+            name: "a",
+            direction: Input,
+            circuit: CellId(
+                16,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(52),
+            },
+        },
+        PinId(
+            6,
+        ): Pin {
+            name: "a",
+            direction: Input,
+            circuit: CellId(
+                9,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(28),
+            },
+        },
+        PinId(
+            32,
+        ): Pin {
+            name: "q",
+            direction: Output,
+            circuit: CellId(
+                19,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(64),
+            },
+        },
+        PinId(
+            19,
+        ): Pin {
+            name: "q",
+            direction: Output,
+            circuit: CellId(
+                15,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(47),
+            },
+        },
+        PinId(
+            2,
+        ): Pin {
+            name: "a",
+            direction: Input,
+            circuit: CellId(
+                7,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(22),
+            },
+        },
+        PinId(
+            31,
+        ): Pin {
+            name: "b",
+            direction: Input,
+            circuit: CellId(
+                19,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(63),
+            },
+        },
+        PinId(
+            14,
+        ): Pin {
+            name: "a",
+            direction: Input,
+            circuit: CellId(
+                12,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(39),
+            },
+        },
+        PinId(
+            40,
+        ): Pin {
+            name: "b",
+            direction: Input,
+            circuit: CellId(
+                21,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(74),
+            },
+        },
+        PinId(
+            27,
+        ): Pin {
+            name: "q",
+            direction: Output,
+            circuit: CellId(
+                17,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(57),
+            },
+        },
+        PinId(
+            10,
+        ): Pin {
+            name: "clk",
+            direction: Input,
+            circuit: CellId(
+                11,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(34),
+            },
+        },
+        PinId(
+            5,
+        ): Pin {
+            name: "clk",
+            direction: Input,
+            circuit: CellId(
+                9,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(27),
+            },
+        },
+        PinId(
+            39,
+        ): Pin {
+            name: "a",
+            direction: Input,
+            circuit: CellId(
+                21,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(73),
+            },
+        },
+        PinId(
+            22,
+        ): Pin {
+            name: "b",
+            direction: Input,
+            circuit: CellId(
+                16,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(51),
+            },
+        },
+        PinId(
+            1,
+        ): Pin {
+            name: "q",
+            direction: Output,
+            circuit: CellId(
+                7,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(21),
+            },
+        },
+        PinId(
+            35,
+        ): Pin {
+            name: "q1",
+            direction: Output,
+            circuit: CellId(
+                20,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(68),
+            },
+        },
+        PinId(
+            18,
+        ): Pin {
+            name: "q",
+            direction: Output,
+            circuit: CellId(
+                14,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(45),
+            },
+        },
+        PinId(
+            13,
+        ): Pin {
+            name: "q",
+            direction: Output,
+            circuit: CellId(
+                12,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(38),
+            },
+        },
+        PinId(
+            30,
+        ): Pin {
+            name: "q",
+            direction: Output,
+            circuit: CellId(
+                18,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(61),
+            },
+        },
+        PinId(
+            9,
+        ): Pin {
+            name: "a",
+            direction: Input,
+            circuit: CellId(
+                11,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(33),
+            },
+        },
+        PinId(
+            26,
+        ): Pin {
+            name: "clk",
+            direction: Input,
+            circuit: CellId(
+                17,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(56),
+            },
+        },
+        PinId(
+            21,
+        ): Pin {
+            name: "q",
+            direction: Output,
+            circuit: CellId(
+                16,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(50),
+            },
+        },
+        PinId(
+            4,
+        ): Pin {
+            name: "q",
+            direction: Output,
+            circuit: CellId(
+                9,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(26),
+            },
+        },
+        PinId(
+            38,
+        ): Pin {
+            name: "clk",
+            direction: Input,
+            circuit: CellId(
+                21,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(72),
+            },
+        },
+        PinId(
+            17,
+        ): Pin {
+            name: "clk",
+            direction: Input,
+            circuit: CellId(
+                14,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(44),
+            },
+        },
+        PinId(
+            0,
+        ): Pin {
+            name: "a",
+            direction: InOut,
+            circuit: CellId(
+                6,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(19),
+                Index(18),
+            },
+        },
+        PinId(
+            34,
+        ): Pin {
+            name: "a",
+            direction: Input,
+            circuit: CellId(
+                19,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(66),
+            },
+        },
+        PinId(
+            29,
+        ): Pin {
+            name: "clk",
+            direction: Input,
+            circuit: CellId(
+                18,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(60),
+            },
+        },
+        PinId(
+            12,
+        ): Pin {
+            name: "b",
+            direction: Input,
+            circuit: CellId(
+                11,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(36),
+            },
+        },
+        PinId(
+            25,
+        ): Pin {
+            name: "a",
+            direction: Input,
+            circuit: CellId(
+                17,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(55),
+            },
+        },
+        PinId(
+            8,
+        ): Pin {
+            name: "clk",
+            direction: Input,
+            circuit: CellId(
+                10,
+            ),
+            net: None,
+            pin_shapes: {
+                Index(31),
+            },
+        },
+    },
+    pin_instances: {
+        PinInstId(
+            5,
+        ): PinInst {
+            template_pin_id: PinId(
+                35,
+            ),
+            circuit_inst: CellInstId(
+                3,
+            ),
+            net: None,
+        },
+        PinInstId(
+            4,
+        ): PinInst {
+            template_pin_id: PinId(
+                37,
+            ),
+            circuit_inst: CellInstId(
+                2,
+            ),
+            net: Some(
+                NetId(
+                    46,
+                ),
+            ),
+        },
+        PinInstId(
+            7,
+        ): PinInst {
+            template_pin_id: PinId(
+                37,
+            ),
+            circuit_inst: CellInstId(
+                3,
+            ),
+            net: None,
+        },
+        PinInstId(
+            6,
+        ): PinInst {
+            template_pin_id: PinId(
+                36,
+            ),
+            circuit_inst: CellInstId(
+                3,
+            ),
+            net: None,
+        },
+        PinInstId(
+            1,
+        ): PinInst {
+            template_pin_id: PinId(
+                0,
+            ),
+            circuit_inst: CellInstId(
+                1,
+            ),
+            net: Some(
+                NetId(
+                    46,
+                ),
+            ),
+        },
+        PinInstId(
+            0,
+        ): PinInst {
+            template_pin_id: PinId(
+                0,
+            ),
+            circuit_inst: CellInstId(
+                0,
+            ),
+            net: None,
+        },
+        PinInstId(
+            3,
+        ): PinInst {
+            template_pin_id: PinId(
+                36,
+            ),
+            circuit_inst: CellInstId(
+                2,
+            ),
+            net: None,
+        },
+        PinInstId(
+            2,
+        ): PinInst {
+            template_pin_id: PinId(
+                35,
+            ),
+            circuit_inst: CellInstId(
+                2,
+            ),
+            net: None,
+        },
+    },
+    properties: PropertyStore {
+        content: {},
+    },
+    id_counter_circuit: 23,
+    id_counter_circuit_inst: 12,
+    id_counter_pin: 42,
+    id_counter_pin_inst: 8,
+    id_counter_net: 47,
+    dbu: 1000,
+    layer_index_generator: IndexGenerator {
+        counter: 17,
+        phantom: PhantomData<libreda_db::layout::types::LayerInfo<alloc::string::String>>,
+    },
+    layers_by_name: {
+        "via2": Index(3),
+        "M1.PIN": Index(13),
+        "via5": Index(9),
+        "M3": Index(4),
+        "M4": Index(6),
+        "M5": Index(8),
+        "M1": Index(0),
+        "OUTLINE": Index(15),
+        "via1": Index(1),
+        "via6": Index(11),
+        "M3.PIN": Index(16),
+        "via3": Index(5),
+        "via4": Index(7),
+        "M7.PIN": Index(14),
+        "M2": Index(2),
+        "M7": Index(12),
+        "M6": Index(10),
+    },
+    layers_by_index_datatype: {
+        (
+            5,
+            0,
+        ): Index(4),
+        (
+            4,
+            0,
+        ): Index(3),
+        (
+            7,
+            0,
+        ): Index(6),
+        (
+            6,
+            0,
+        ): Index(5),
+        (
+            1,
+            0,
+        ): Index(0),
+        (
+            3,
+            0,
+        ): Index(2),
+        (
+            2,
+            0,
+        ): Index(1),
+        (
+            13,
+            0,
+        ): Index(12),
+        (
+            12,
+            0,
+        ): Index(11),
+        (
+            15,
+            0,
+        ): Index(14),
+        (
+            14,
+            0,
+        ): Index(13),
+        (
+            9,
+            0,
+        ): Index(8),
+        (
+            8,
+            0,
+        ): Index(7),
+        (
+            11,
+            0,
+        ): Index(10),
+        (
+            10,
+            0,
+        ): Index(9),
+        (
+            17,
+            0,
+        ): Index(16),
+        (
+            16,
+            0,
+        ): Index(15),
+    },
+    layer_info: {
+        Index(5): LayerInfo {
+            index: 6,
+            datatype: 0,
+            name: Some(
+                "via3",
+            ),
+        },
+        Index(14): LayerInfo {
+            index: 15,
+            datatype: 0,
+            name: Some(
+                "M7.PIN",
+            ),
+        },
+        Index(1): LayerInfo {
+            index: 2,
+            datatype: 0,
+            name: Some(
+                "via1",
+            ),
+        },
+        Index(10): LayerInfo {
+            index: 11,
+            datatype: 0,
+            name: Some(
+                "M6",
+            ),
+        },
+        Index(13): LayerInfo {
+            index: 14,
+            datatype: 0,
+            name: Some(
+                "M1.PIN",
+            ),
+        },
+        Index(4): LayerInfo {
+            index: 5,
+            datatype: 0,
+            name: Some(
+                "M3",
+            ),
+        },
+        Index(9): LayerInfo {
+            index: 10,
+            datatype: 0,
+            name: Some(
+                "via5",
+            ),
+        },
+        Index(0): LayerInfo {
+            index: 1,
+            datatype: 0,
+            name: Some(
+                "M1",
+            ),
+        },
+        Index(12): LayerInfo {
+            index: 13,
+            datatype: 0,
+            name: Some(
+                "M7",
+            ),
+        },
+        Index(7): LayerInfo {
+            index: 8,
+            datatype: 0,
+            name: Some(
+                "via4",
+            ),
+        },
+        Index(8): LayerInfo {
+            index: 9,
+            datatype: 0,
+            name: Some(
+                "M5",
+            ),
+        },
+        Index(3): LayerInfo {
+            index: 4,
+            datatype: 0,
+            name: Some(
+                "via2",
+            ),
+        },
+        Index(15): LayerInfo {
+            index: 16,
+            datatype: 0,
+            name: Some(
+                "OUTLINE",
+            ),
+        },
+        Index(6): LayerInfo {
+            index: 7,
+            datatype: 0,
+            name: Some(
+                "M4",
+            ),
+        },
+        Index(16): LayerInfo {
+            index: 17,
+            datatype: 0,
+            name: Some(
+                "M3.PIN",
+            ),
+        },
+        Index(11): LayerInfo {
+            index: 12,
+            datatype: 0,
+            name: Some(
+                "via6",
+            ),
+        },
+        Index(2): LayerInfo {
+            index: 3,
+            datatype: 0,
+            name: Some(
+                "M2",
+            ),
+        },
+    },
+    shape_index_generator: IndexGenerator {
+        counter: 81,
+        phantom: PhantomData<libreda_db::chip::Shape<i32>>,
+    },
+    shape_parents: {
+        Index(37): (
+            CellId(
+                11,
+            ),
+            Index(15),
+        ),
+        Index(71): (
+            CellId(
+                20,
+            ),
+            Index(15),
+        ),
+        Index(16): (
+            CellId(
+                5,
+            ),
+            Index(12),
+        ),
+        Index(3): (
+            CellId(
+                1,
+            ),
+            Index(2),
+        ),
+        Index(50): (
+            CellId(
+                16,
+            ),
+            Index(16),
+        ),
+        Index(45): (
+            CellId(
+                14,
+            ),
+            Index(16),
+        ),
+        Index(79): (
+            CellId(
+                22,
+            ),
+            Index(0),
+        ),
+        Index(24): (
+            CellId(
+                8,
+            ),
+            Index(16),
+        ),
+        Index(11): (
+            CellId(
+                3,
+            ),
+            Index(7),
+        ),
+        Index(58): (
+            CellId(
+                17,
+            ),
+            Index(15),
+        ),
+        Index(53): (
+            CellId(
+                16,
+            ),
+            Index(15),
+        ),
+        Index(36): (
+            CellId(
+                11,
+            ),
+            Index(16),
+        ),
+        Index(70): (
+            CellId(
+                20,
+            ),
+            Index(16),
+        ),
+        Index(19): (
+            CellId(
+                6,
+            ),
+            Index(14),
+        ),
+        Index(2): (
+            CellId(
+                0,
+            ),
+            Index(1),
+        ),
+        Index(61): (
+            CellId(
+                18,
+            ),
+            Index(16),
+        ),
+        Index(44): (
+            CellId(
+                14,
+            ),
+            Index(16),
+        ),
+        Index(78): (
+            CellId(
+                22,
+            ),
+            Index(4),
+        ),
+        Index(27): (
+            CellId(
+                9,
+            ),
+            Index(16),
+        ),
+        Index(10): (
+            CellId(
+                3,
+            ),
+            Index(8),
+        ),
+        Index(5): (
+            CellId(
+                1,
+            ),
+            Index(3),
+        ),
+        Index(52): (
+            CellId(
+                16,
+            ),
+            Index(16),
+        ),
+        Index(39): (
+            CellId(
+                12,
+            ),
+            Index(16),
+        ),
+        Index(65): (
+            CellId(
+                19,
+            ),
+            Index(16),
+        ),
+        Index(18): (
+            CellId(
+                6,
+            ),
+            Index(13),
+        ),
+        Index(13): (
+            CellId(
+                4,
+            ),
+            Index(10),
+        ),
+        Index(60): (
+            CellId(
+                18,
+            ),
+            Index(16),
+        ),
+        Index(47): (
+            CellId(
+                15,
+            ),
+            Index(16),
+        ),
+        Index(73): (
+            CellId(
+                21,
+            ),
+            Index(16),
+        ),
+        Index(26): (
+            CellId(
+                9,
+            ),
+            Index(16),
+        ),
+        Index(21): (
+            CellId(
+                7,
+            ),
+            Index(16),
+        ),
+        Index(4): (
+            CellId(
+                1,
+            ),
+            Index(4),
+        ),
+        Index(55): (
+            CellId(
+                17,
+            ),
+            Index(16),
+        ),
+        Index(38): (
+            CellId(
+                12,
+            ),
+            Index(16),
+        ),
+        Index(64): (
+            CellId(
+                19,
+            ),
+            Index(16),
+        ),
+        Index(29): (
+            CellId(
+                9,
+            ),
+            Index(15),
+        ),
+        Index(12): (
+            CellId(
+                4,
+            ),
+            Index(8),
+        ),
+        Index(63): (
+            CellId(
+                19,
+            ),
+            Index(16),
+        ),
+        Index(46): (
+            CellId(
+                14,
+            ),
+            Index(15),
+        ),
+        Index(72): (
+            CellId(
+                21,
+            ),
+            Index(16),
+        ),
+        Index(20): (
+            CellId(
+                6,
+            ),
+            Index(15),
+        ),
+        Index(7): (
+            CellId(
+                2,
+            ),
+            Index(6),
+        ),
+        Index(54): (
+            CellId(
+                17,
+            ),
+            Index(16),
+        ),
+        Index(33): (
+            CellId(
+                11,
+            ),
+            Index(16),
+        ),
+        Index(80): (
+            CellId(
+                22,
+            ),
+            Index(4),
+        ),
+        Index(67): (
+            CellId(
+                19,
+            ),
+            Index(15),
+        ),
+        Index(28): (
+            CellId(
+                9,
+            ),
+            Index(16),
+        ),
+        Index(15): (
+            CellId(
+                5,
+            ),
+            Index(10),
+        ),
+        Index(62): (
+            CellId(
+                18,
+            ),
+            Index(15),
+        ),
+        Index(41): (
+            CellId(
+                13,
+            ),
+            Index(16),
+        ),
+        Index(75): (
+            CellId(
+                21,
+            ),
+            Index(16),
+        ),
+        Index(23): (
+            CellId(
+                7,
+            ),
+            Index(15),
+        ),
+        Index(6): (
+            CellId(
+                2,
+            ),
+            Index(4),
+        ),
+        Index(49): (
+            CellId(
+                15,
+            ),
+            Index(15),
+        ),
+        Index(32): (
+            CellId(
+                10,
+            ),
+            Index(15),
+        ),
+        Index(66): (
+            CellId(
+                19,
+            ),
+            Index(16),
+        ),
+        Index(31): (
+            CellId(
+                10,
+            ),
+            Index(16),
+        ),
+        Index(14): (
+            CellId(
+                4,
+            ),
+            Index(9),
+        ),
+        Index(57): (
+            CellId(
+                17,
+            ),
+            Index(16),
+        ),
+        Index(40): (
+            CellId(
+                12,
+            ),
+            Index(15),
+        ),
+        Index(74): (
+            CellId(
+                21,
+            ),
+            Index(16),
+        ),
+        Index(69): (
+            CellId(
+                20,
+            ),
+            Index(16),
+        ),
+        Index(22): (
+            CellId(
+                7,
+            ),
+            Index(16),
+        ),
+        Index(1): (
+            CellId(
+                0,
+            ),
+            Index(2),
+        ),
+        Index(48): (
+            CellId(
+                15,
+            ),
+            Index(16),
+        ),
+        Index(35): (
+            CellId(
+                11,
+            ),
+            Index(16),
+        ),
+        Index(77): (
+            CellId(
+                22,
+            ),
+            Index(15),
+        ),
+        Index(30): (
+            CellId(
+                10,
+            ),
+            Index(16),
+        ),
+        Index(9): (
+            CellId(
+                3,
+            ),
+            Index(6),
+        ),
+        Index(56): (
+            CellId(
+                17,
+            ),
+            Index(16),
+        ),
+        Index(43): (
+            CellId(
+                14,
+            ),
+            Index(16),
+        ),
+        Index(68): (
+            CellId(
+                20,
+            ),
+            Index(16),
+        ),
+        Index(17): (
+            CellId(
+                5,
+            ),
+            Index(11),
+        ),
+        Index(0): (
+            CellId(
+                0,
+            ),
+            Index(0),
+        ),
+        Index(51): (
+            CellId(
+                16,
+            ),
+            Index(16),
+        ),
+        Index(34): (
+            CellId(
+                11,
+            ),
+            Index(16),
+        ),
+        Index(76): (
+            CellId(
+                21,
+            ),
+            Index(15),
+        ),
+        Index(25): (
+            CellId(
+                8,
+            ),
+            Index(15),
+        ),
+        Index(8): (
+            CellId(
+                2,
+            ),
+            Index(5),
+        ),
+        Index(59): (
+            CellId(
+                18,
+            ),
+            Index(16),
+        ),
+        Index(42): (
+            CellId(
+                13,
+            ),
+            Index(15),
+        ),
+    },
+    net_shapes: {},
+}

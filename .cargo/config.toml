@@ -1,0 +1,9 @@
+# paths = ["iron-shapes"]
+
+#[source.crates-io]
+#replace-with = "flux-cargo-registry"
+
+[package]
+publish = "flux-cargo-registry"
+
+registry.default = "flux-cargo-registry"

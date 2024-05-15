@@ -1,0 +1,7 @@
+.DS_*
+.history
+.idea
+target
+*.log
+.vscode
+.zed
